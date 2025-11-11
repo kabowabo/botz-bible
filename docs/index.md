@@ -1,4 +1,4 @@
-# AVBotz Electrical Bible
+# *AVBotz Electrical Bible*
 Compiled by Aarav Jain (‘25), Gaurav Gupta (‘26), et al.  
 2023–Present  
 
