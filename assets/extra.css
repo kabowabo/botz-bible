@@ -1,0 +1,18 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.md-header__button.md-logo {
+  animation: spin 4s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-header__button.md-logo {
+    animation: none;
+  }
+}
