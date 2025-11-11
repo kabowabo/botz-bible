@@ -4,7 +4,7 @@ site_description: 'Master documentation for the AVBotz Electrical System.'
 
 theme:
   name: material
-  logo: 'assets/logo.png'
+  logo: 'assets/propeller.svg'
   palette:
     - scheme: slate
       primary: blue
@@ -16,6 +16,8 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+extra_css:
+  - assets/extra.css
 
 nav:
   - 'Home': 'index.md'
