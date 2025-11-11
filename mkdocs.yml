@@ -6,14 +6,25 @@ theme:
   name: material
   logo: 'assets/logo.png'
   palette:
-    primary: 'blue'
-    accent: 'cyan'
+    - scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.suggest
     - search.highlight
+    - content.code.copy
 
 nav:
   - 'Home': 'index.md'
@@ -42,4 +53,3 @@ nav:
     - 'Soldering Guide': 'guides/soldering.md'
     - 'SSH Commands': 'guides/ssh.md'
     - 'Component Graveyard': 'guides/old-components.md'
-
