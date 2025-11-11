@@ -1,0 +1,45 @@
+site_name: AVBotz Electrical Bible
+site_author: AVBotz
+site_description: 'Master documentation for the AVBotz Electrical System.'
+
+theme:
+  name: material
+  logo: 'assets/logo.png'
+  palette:
+    primary: 'blue'
+    accent: 'cyan'
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - 'Home': 'index.md'
+  - 'PowerSystems':
+    - 'Batteries & Charging': 'power/batteries.md'
+    - 'Power Distribution': 'power/distribution.md'
+    - 'Cincon Converter': 'power/cincon.md'
+    - 'Buck Converters': 'power/buck-converters.md'
+  - 'ControlSystems':
+    - 'Kill Switch & Relay': 'control/kill-switch.md'
+    - 'Microcontroller (MCU)': 'control/mcu.md'
+    - 'Electronic Speed Controllers (ESCs)': 'control/escs.md'
+  - 'Sensors':
+    - 'SensorStack': 'sensors/sensor-stack.md'
+    - 'AHRS': 'sensors/ahrs.md'
+    - 'Doppler Velocity Log (DVL)': 'sensors/dvl.md'
+    - 'Cameras': 'sensors/cameras.md'
+  - 'Actuators':
+    - 'Thrusters': 'actuators/thrusters.md'
+    - 'Servos (Ball Dropper)': 'actuators/servos.md'
+  - 'Connectivity':
+    - 'Connectors & Penetrators': 'connectivity/connectors.md'
+    - 'Marlin Bulkhead': 'connectivity/bulkhead.md'
+    - 'Networking & Tether': 'connectivity/networking.md'
+  - 'Guides_Appendices':
+    - 'Soldering Guide': 'guides/soldering.md'
+    - 'SSH Commands': 'guides/ssh.md'
+    - 'Component Graveyard': 'guides/old-components.md'
+
