@@ -10,16 +10,16 @@ Store batteries in a cool dry place and the pelican case. They should also be st
 
 Use the JST connector from the batteries and plug it into the 4S CN5-3 Pin, take the XT-90 connector from the battery and plug it into the venom charger XT-90s
 
-![4S CN5-3](docs/assets/power/4SCN5-3Pin.jpg)
+![4S CN5-3](assets/power/4SCN5-3Pin.jpg)
 
 Turn on the Venom power supply, turn the knob to 24V, and the current will adjust itself while charging.
 
-![24v](docs/assets/power/24v.png)
+![24v](assets/power/24v.png)
 
 Set the Venom charger to LiPo. Press charge, and the screen below pops up. Always change the Pack. Volt. to 14.8V/4S (Change). The Capacity to 10000mAh.
 Hold Enter to start the charging. For the sus charger, it might give you an error; just try to unplug and replug the connector to the charger itself and it should work hopefully. (Hopes and dreams). Also keep in mind that the venom power went out of business, so if you need a replacement you can probably ask Justin or Eaton or find some old Botz members. 
 
-![screen](docs/assets/power/screen.png)
+![screen](assets/power/screen.png)
 
 #Dimensions of Marlin (inside of sub meb):
 

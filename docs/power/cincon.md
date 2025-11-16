@@ -3,9 +3,9 @@
 
 Located on the bottom of the rack. 16V-12V converter. (used 2023, 2024 comp)
 
-![cincon](docs/assets/power/cincon.png)
+![cincon](assets/power/cincon.png)
 
 DC-DC 16-12V converter. Called cincon because the actual name is very long  
 (Cincon CHB200W12-72S12) - Using negative version (default=off)
 
-![cincon circuit](docs/assets/power/cinconcircuit.png)
+![cincon circuit](assets/power/cinconcircuit.png)
